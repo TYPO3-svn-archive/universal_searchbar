@@ -1,0 +1,5 @@
+# cat=basic; type=boolean; label= LLL:EXT:universal_searchbar/locallang.xml:showHelp
+showHelp = 1
+
+# cat=basic; type=string; label= LLL:EXT:universal_searchbar/locallang.xml:helpTemplateFile
+helpTemplateFile = typo3conf/ext/universal_searchbar/Resources/templates/helpTemplateFile.html
