@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'searchbar'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.pi_flexform.sheet_general">Plugin Details</label>
+			<label index="tt_content.pi_flexform.field_PluginName">Plugin Name</label>
+			<label index="tt_content.pi_flexform.field_PluginDescription">Description</label>
+			<label index="tt_content.pi_flexform.field_PluginIcon">Plugin Icon</label>
+			<label index="tx_searchbar_items">Searchbar Items</label>
+			<label index="tx_searchbar_items.title">Title</label>
+			<label index="tx_searchbar_items.hotkey">Hotkey</label>
+			<label index="tx_searchbar_items.searchurl">URL for search</label>
+			<label index="tx_searchbar_items.typoscript">TypoScript</label>
+			<label index="tx_searchbar_items.itemtype.I.0">Normal</label>
+			<label index="tx_searchbar_items.itemtype.I.1">TypoScript</label>
+			<label index="tx_searchbar_items.itemtype.I.2">additional functions</label>
+			<label index="tx_searchbar_items.itemtype">Item Type</label>
+			<label index="tx_searchbar_items.glue">Glue for search phrase</label>
+			<label index="tx_searchbar_items.additionalfunctions">additional Functions</label>
+			<label index="tt_content.list_type_pi1">Add a Browser Searchbar</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_content.pi_flexform.sheet_general">Plugin Eigenschaften</label>
+			<label index="tt_content.pi_flexform.field_PluginName">Plugin Name</label>
+			<label index="tt_content.pi_flexform.field_PluginDescription">Beschreibung</label>
+			<label index="tt_content.pi_flexform.field_PluginIcon">Plugin Icon</label>
+			<label index="tx_searchbar_items">Searchbar Items</label>
+			<label index="tx_searchbar_items.title">Titel</label>
+			<label index="tx_searchbar_items.hotkey">Hotkey</label>
+			<label index="tx_searchbar_items.searchurl">URL für Suche</label>
+			<label index="tx_searchbar_items.typoscript">TypoScript</label>
+			<label index="tx_searchbar_items.itemtype.I.0">Normal</label>
+			<label index="tx_searchbar_items.itemtype.I.1">TypoScript</label>
+			<label index="tx_searchbar_items.itemtype.I.2">weitere Fuktionen</label>
+			<label index="tx_searchbar_items.itemtype">Item Typ</label>
+			<label index="tx_searchbar_items.glue">Kleber für Such Wörter</label>
+			<label index="tx_searchbar_items.additionalfunctions">zusätzliche Funktionen</label>
+			<label index="tt_content.list_type_pi1">Erzeuge eine Browser Searchbar</label>
+		</languageKey>
+	</data>
+</T3locallang>

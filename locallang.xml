@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'searchbar'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Add a Browser Searchbar</label>
+			<label index="pi1_plus_wiz_description">add a link for setting a searchbar</label>
+			<label index="showHelp">Show Help: Show all entries, if hotKey not found in database</label>
+			<label index="helpTemplateFile">Help TemplateFile: use this templateFile to show all entries</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi1_title">Erzeuge eine Browser Searchbar</label>
+			<label index="pi1_plus_wiz_description">Erzeugt einen link zum setzen einer Searchbar</label>
+			<label index="showHelp">Hilfe Anzeigen: Zeige alle Einträge, wenn der HotKey nicht in der Datenbanl gefunden wurde.</label>
+			<label index="helpTemplateFile">TemplateFile für Hilfe: Nutze dieses TemplateFile für die Ausgabe aller Einträge.</label>
+		</languageKey>
+	</data>
+</T3locallang>
