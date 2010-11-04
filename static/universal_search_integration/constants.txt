@@ -1,3 +1,0 @@
-
-//todo - Für KonstantEditor aufbereiten
-universalSearchbar.typeNum = 222
