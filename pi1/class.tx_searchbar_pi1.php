@@ -75,12 +75,7 @@ class tx_searchbar_pi1 extends tslib_pibase {
 
 		$this->linkForOpenSearch = $this->getOpenSearchURL();
 
-		$this->pi_initPIflexForm();
-
-		$this->fetchConfigValue('pluginName');
-		$this->fetchConfigValue('pluginDescription');
-		$this->fetchConfigValue('pluginIcon');
-
+		$this->cObj->readFlexformIntoConf($this->cObj->data['pi_flexform'], $this->conf);
 		$this->templateCode  = 	$this->cObj->fileResource($this->conf['templateFile']);
 
 		if(empty($this->templateCode)) {
@@ -164,15 +159,6 @@ class tx_searchbar_pi1 extends tslib_pibase {
 
 	}
 
-
-	##### some helper functions ####
-
-	function fetchConfigValue($param, $sheet='sDEF') {
-		$value = trim($this->pi_getFFvalue($this->cObj->data['pi_flexform'], $param, $sheet));
-		if (!is_null($value) && $value != '') {
-				$this->conf[$param] = $value;
-		}
-	}
 }
 
 
