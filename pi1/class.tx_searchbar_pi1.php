@@ -98,7 +98,7 @@ class tx_searchbar_pi1 extends tslib_pibase {
 		$templateSubpart = $this->cObj->getSubpart($this->templateCode, '###ADDSEARCHPROVIDER###');
 
 		$markerArray = array(
-			'###SITEURL###' => $this->cObj->typolink(array('parameter' => $GLOBALS['TSFE']->id)),
+			'###SITEURL###' => $this->cObj->typolink_URL(array('parameter' => $GLOBALS['TSFE']->id)),
 			'###SEARCHPROVIDERLINK###' => t3lib_div::getIndpEnv(TYPO3_SITE_URL) . $this->linkForOpenSearch,
 			'###SEARCHPROVIDERLINKTEXT###' => $this->pi_getLL('searchproviderlinktext','add the new seachbar engine')
 		);
